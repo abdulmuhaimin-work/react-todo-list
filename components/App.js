@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
-import TextInput from './TextInput'
+import TodoInput from './TodoInput'
+import TodoList from './TodoList'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>This is hot-loading React, yeah!</h1>
-        <TextInput/>
+        <h1>Todo List</h1>
+        <TodoInput/>
+        <TodoList/>
       </div>
     )
   }
